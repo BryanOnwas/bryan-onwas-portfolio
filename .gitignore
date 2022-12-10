@@ -30,3 +30,6 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
+
+# Local Netlify folder
+.netlify
