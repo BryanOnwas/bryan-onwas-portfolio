@@ -25,6 +25,7 @@
 
 	&__info {
 		padding: calc(var(--section-gutter) * 1.5) 0;
+		border-bottom: 0.125rem solid var(--light);
 		width: 100%;
 	}
 
@@ -63,8 +64,8 @@
 		color: var(--secondary-text);
 		font-weight: 500;
 		text-align: center;
-    width: max-content;
-    margin: 1rem auto;
+		width: max-content;
+		margin: 1rem auto;
 	}
 
 	&__social-list {
@@ -86,11 +87,6 @@
 		@include mixins.section-title;
 		margin-top: calc(var(--section-gutter));
 		margin-bottom: calc(var(--section-gutter) * 0.5);
-
-		&::before {
-			content: "skills";
-			left: 0.25rem;
-		}
 	}
 
 	&__skill-group {

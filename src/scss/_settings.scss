@@ -3,6 +3,10 @@
 	--primary-font: "Poppins", sans-serif;
 	--secondary-font: "Open Sans", sans-serif;
 
+	// Main Color Settings
+	--primary: #2483dd;
+	--secondary: #22374a;
+
 	// Background Color Settings
 	--main-bgcolor: #fff;
 	--card-bgcolor: linear-gradient(145deg, #e2e8ec, #fff);
@@ -10,14 +14,14 @@
 	--footer-bgcolor: #000;
 
 	// Text Color Settings
-	--primary-text: #2483dd;
-	--secondary-text: #22374a;
+	--primary-text: var(--primary);
+	--secondary-text: var(--secondary);
 
 	// Neutral Color Settings
 	--white: #fff;
 	--light: #f2f2f2;
 	--gray: gray;
-	--dark: #333;
+	--dark: var(--secondary);
 	--black: #000;
 
 	// Height/Width Settings

@@ -41,15 +41,17 @@ main {
 }
 
 section {
-	padding: var(--section-gutter) 0 0;
+	padding: var(--section-gutter) 0;
 	position: relative;
+	border-bottom: 0.125rem solid var(--light);
 
 	&:first-child {
-		padding: var(--header-height) 0 0;
+		padding: var(--header-height) 0 var(--section-gutter);
 	}
 
 	&:last-child {
 		padding: var(--section-gutter) 0 var(--section-gutter);
+		border-bottom: none;
 	}
 }
 
