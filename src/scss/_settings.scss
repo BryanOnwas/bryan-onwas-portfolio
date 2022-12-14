@@ -1,17 +1,29 @@
 :root {
-  --primary-font: 'Poppins', sans-serif;
-  --secondary-font: 'Open Sans', sans-serif;
-  --pro-font: 'Sofia Pro' sans-serif;
+	// Font Settings
+	--primary-font: "Poppins", sans-serif;
+	--secondary-font: "Open Sans", sans-serif;
 
-  --white: #fff;
-  --light: #f2f2f2;
-  --gray: gray;
-  --dark: #333;
-  --black: #000;
+	// Background Color Settings
+	--main-bgcolor: #fff;
+	--card-bgcolor: linear-gradient(145deg, #e2e8ec, #fff);
+	--header-bgcolor: #fff;
+	--footer-bgcolor: #000;
 
-  --container-width: 1400px;
-  --modal-width: 960px;
-  --header-height: 6rem;
-  --footer-height: 8rem;
-  --section-gutter: calc(var(--header-height) * 1.5);
+	// Text Color Settings
+	--primary-text: #2483dd;
+	--secondary-text: #22374a;
+
+	// Neutral Color Settings
+	--white: #fff;
+	--light: #f2f2f2;
+	--gray: gray;
+	--dark: #333;
+	--black: #000;
+
+	// Height/Width Settings
+	--container-width: 1400px;
+	--modal-width: 960px;
+	--header-height: 6rem;
+	--footer-height: 8rem;
+	--section-gutter: calc(var(--header-height) * 1.5);
 }

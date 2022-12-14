@@ -136,7 +136,12 @@ table {
 :root {
   --primary-font: "Poppins", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
-  --pro-font: "Sofia Pro" sans-serif;
+  --main-bgcolor: #fff;
+  --card-bgcolor: linear-gradient(145deg, #e2e8ec, #fff);
+  --header-bgcolor: #fff;
+  --footer-bgcolor: #000;
+  --primary-text: #2483dd;
+  --secondary-text: #22374a;
   --white: #fff;
   --light: #f2f2f2;
   --gray: gray;
@@ -163,6 +168,7 @@ html {
 body {
   overflow-x: hidden;
   font-family: var(--primary-font);
+  background-color: var(--main-bgcolor);
 }
 body.disable-scroll {
   overflow: hidden;
@@ -565,11 +571,12 @@ img {
   width: 100%;
 }
 .header__logo {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 1rem;
+  text-transform: uppercase;
 }
 .header__logo a {
   line-height: var(--header-height);
@@ -587,7 +594,7 @@ img {
 }
 .header__menu {
   font-family: var(--primary-font);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 @media (max-width: 47.9375rem) {
@@ -716,7 +723,7 @@ img {
   color: var(--black);
 }
 .home__last-name {
-  color: var(--black);
+  color: var(--primary-text);
 }
 .home__role {
   font-family: var(--primary-font);
@@ -724,7 +731,13 @@ img {
   margin-top: 1rem;
   font-weight: 700;
   color: var(--black);
+  color: var(--secondary-text);
+  font-weight: 500;
   text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 1rem auto;
 }
 @media (max-width: 35.9375rem) {
   .home__role {
