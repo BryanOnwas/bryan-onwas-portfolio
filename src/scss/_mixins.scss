@@ -5,10 +5,10 @@
 	justify-content: center;
 	background-color: var(--black);
 	border: 0.125rem solid var(--black);
-	height: 3.75rem;
-	width: 12.5rem;
+	width: fit-content;
+	padding: 1rem 2rem;
 	color: var(--white);
-	border-radius: 50px;
+	border-radius: 0.5rem;
 	transition: background-color 0.25s, color 0.25s;
 	font-weight: 600;
 	font-family: var(--primary-font);
@@ -46,15 +46,25 @@
 
 // Section Mixins
 @mixin section-title {
-	font-size: 2.25rem;
-	font-weight: 900;
+	font-size: 4rem;
+	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
+	text-align: center;
 
 	@media (max-width: 35.9375rem) {
-		font-size: 2rem;
-		text-align: center;
+		font-size: 3.25rem;
 	}
+}
+
+// Section Mixins
+@mixin section-subtitle {
+	font-size: 1.25rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: var(--primary);
+	margin-top: 1rem;
+	margin-bottom: calc(var(--section-gutter) * 0.5);
 }
 
 @mixin section-description {
