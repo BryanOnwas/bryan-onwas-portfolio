@@ -3,6 +3,8 @@
 
 .header {
 	min-height: var(--header-height);
+	background-color: var(--header-bgcolor);
+	color: var(--black);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -11,8 +13,6 @@
 	display: flex;
 	align-items: center;
 	transition: background-color 0.25s, color 0.25s;
-	background-color: var(--white);
-	color: var(--black);
 
 	&::before {
 		content: "";
@@ -90,7 +90,8 @@
 			transition: height 0.5s;
 
 			&--open {
-				height: calc(var(--header-height) * 4);
+				// Note: Header Height * # of Menu Links
+				height: calc(var(--header-height) * 3);
 			}
 
 			& > * + * {

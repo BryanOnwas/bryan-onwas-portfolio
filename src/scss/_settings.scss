@@ -4,25 +4,23 @@
 	--secondary-font: "Open Sans", sans-serif;
 
 	// Main Color Settings
-	--primary: #2483dd;
-	--secondary: #22374a;
-
-	// Background Color Settings
-	--main-bgcolor: #fff;
-	--card-bgcolor: linear-gradient(145deg, #e2e8ec, #fff);
-	--header-bgcolor: #fff;
-	--footer-bgcolor: #000;
+	--primary: #2480dd;
+	--secondary: #22404a;
+	--white: #fff;
+	--light: #ecf0f3;
+	--gray: gray;
+	--dark: #22404a;
+	--black: #000;
 
 	// Text Color Settings
 	--primary-text: var(--primary);
 	--secondary-text: var(--secondary);
 
-	// Neutral Color Settings
-	--white: #fff;
-	--light: #f2f2f2;
-	--gray: gray;
-	--dark: var(--secondary);
-	--black: #000;
+	// Background Color Settings
+	--main-bgcolor: var(--white);
+	--card-bgcolor: linear-gradient(145deg, #e2e8ec, #fff);
+	--header-bgcolor: var(--white);
+	--footer-bgcolor: var(--black);
 
 	// Height/Width Settings
 	--container-width: 1400px;
