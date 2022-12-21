@@ -778,7 +778,7 @@ img {
 }
 .home__skill-title {
   font-family: var(--primary-font);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -885,7 +885,7 @@ img {
 }
 .about__card-title {
   font-family: var(--primary-font);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -986,7 +986,7 @@ img {
 }
 .projects__card-title {
   font-family: var(--primary-font);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   padding: 1rem 0 0;
 }
