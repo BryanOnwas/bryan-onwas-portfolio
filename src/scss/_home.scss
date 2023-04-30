@@ -24,7 +24,6 @@
 
 	&__info {
 		padding: calc(var(--section-gutter) * 1.5) 0;
-		border-bottom: 0.125rem solid var(--light);
 		width: 100%;
 	}
 
@@ -101,42 +100,4 @@
 		text-align: center;
 	}
 
-	&__skill-group {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		gap: 1rem;
-	}
-
-	&__skill {
-		display: flex;
-		flex-flow: column wrap;
-		align-items: center;
-		width: calc(25% - 1rem);
-		border: 0.125rem solid var(--light);
-		border-radius: 1rem;
-		flex-grow: 1;
-		padding: 1rem;
-
-		@media (max-width: 61.9375rem) {
-			width: calc(33.3333% - 1rem);
-		}
-
-		@media (max-width: 47.9375rem) {
-			width: calc(50% - 1rem);
-		}
-
-		@media (max-width: 35.9375rem) {
-			width: 100%;
-		}
-	}
-
-	&__skill-icon {
-		font-size: 4rem;
-	}
-
-	&__skill-title {
-		@include mixins.card-title;
-	}
 }
